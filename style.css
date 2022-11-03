@@ -1,0 +1,58 @@
+.header{
+  text-align: center;
+  font-family:Verdana;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgb(79, 153, 175);
+  border: 4px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.h1{
+  text-align: center;
+  font-size: 36px;
+  width: 350px;
+  background-color: rgb(146, 116, 61);
+  padding-top: 28px;
+
+ 
+
+ 
+}
+
+.headshot{
+  width: 150px;
+  height: 150x;
+  border-radius: 75px;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+nav{
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin: 2px;
+  
+
+}
+
+nav ul li{
+  display: inline-block;
+
+}
+
+nav ul li a:hover{
+  color: rgb(204, 37, 37);
+  transition: .5s;
+
+}
