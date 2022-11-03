@@ -15,14 +15,10 @@
 
 .h1{
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
   width: 350px;
-  background-color: rgb(146, 116, 61);
-  padding-top: 28px;
-
- 
-
- 
+  background-color: rgb(255, 255, 255);
+  padding-top: 48px;
 }
 
 .headshot{
@@ -35,14 +31,10 @@
 }
 
 nav{
-  font-size: 28px;
+  font-size: 24px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 6px;
-  padding-right: 6px;
-  margin: 2px;
-  
+  align-items: flex-end;
+  margin: 6px;
 
 }
 
@@ -55,4 +47,39 @@ nav ul li a:hover{
   color: rgb(204, 37, 37);
   transition: .5s;
 
+}
+
+.h2{
+  padding-top: 20px;
+  padding-left: 2px;
+  font-family:Verdana;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+p{
+  
+  font-family:Verdana;
+  color: rgb(0, 0, 0);
+  padding-left: 2px;
+  text-align: center;
+  
+}
+.about-me{
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  width: 360px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  background-color:rgb(79, 153, 175);
+  height: 100vh;
+ 
+ 
+
+ 
 }
