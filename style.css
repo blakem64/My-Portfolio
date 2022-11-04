@@ -1,15 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .header{
   text-align: center;
   font-family:Verdana;
   font-weight: bold;
   color: rgb(0, 0, 0);
   background-color: rgb(79, 153, 175);
-  border: 4px;
+  border: 2px;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
   position: relative;
+  padding-top: 16px;
+  padding-bottom: 16px;
 
 }
 
@@ -17,7 +24,6 @@
   text-align: center;
   font-size: 30px;
   width: 350px;
-  background-color: rgb(255, 255, 255);
   padding-top: 48px;
 }
 
@@ -49,6 +55,7 @@ nav ul li a:hover{
 
 }
 
+ 
 .h2{
   padding-top: 20px;
   padding-left: 2px;
@@ -65,6 +72,7 @@ p{
   color: rgb(0, 0, 0);
   padding-left: 2px;
   text-align: center;
+
   
 }
 .about-me{
@@ -78,8 +86,11 @@ p{
   border-color: black;
   background-color:rgb(79, 153, 175);
   height: 100vh;
- 
- 
+}
 
- 
+.container{
+  display: flex;
+}
+.box-1{
+  width: 200px;
 }
