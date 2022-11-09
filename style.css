@@ -10,20 +10,15 @@
   justify-content: center;
 }
 
-.avatar-img{
-  width: 150px;
-  height: 150x;
-  border-radius: 75px;
-  object-fit: cover;
-  object-position: center;
-
+.avatar img{
+  width: 200px;
 }
 
 header{
   padding:20px;
   display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 nav{
@@ -83,3 +78,6 @@ footer ul a{
   color: inherit;
 }
 
+img{
+  width:100%;
+}
